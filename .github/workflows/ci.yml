@@ -5,10 +5,10 @@ on:
      branches: [ main ]
 
 jobs:
-   test:
+  test:
      runs-on: ubuntu-latest
 
-    steps:
+     steps:
      - uses: actions/checkout@v3
 
 
